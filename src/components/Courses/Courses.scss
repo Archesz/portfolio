@@ -1,0 +1,75 @@
+.course-container{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    padding: 20px 20px 10px 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+    &:hover{
+        transition: .4s;
+        box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.8);
+    }
+
+    .logo{
+        height: 25px;
+        width: 25px;
+        margin-bottom: 6px;
+    }
+
+    .name{
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .tags{
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+        .tag{
+            padding: 4px;
+            font-size: 12px;
+            color: white;
+            font-weight: bolder;
+            background-color: #533460;
+            border-radius: 4px;
+            box-shadow: 4px 4px 6px black;
+            cursor: pointer;
+        }
+    }
+
+    .descript{
+        margin-top: 12px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .course-label{
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+
+    .descript{
+        font-size: 13px;
+    }
+}
+
+.row-bet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .star{
+        font-size: 12px;
+    }
+}

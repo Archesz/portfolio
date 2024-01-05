@@ -1,0 +1,42 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    .projects-view{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 40px;
+    }
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    width: 240px;
+    
+    .project-image{
+        width: 240px;
+        height: 200px;
+        border-radius: 12px;
+    }
+    
+    .project-name{
+        font-weight: bolder;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .project-descript{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        max-height: 200px;
+        text-overflow: ellipsis;    
+    }
+}
